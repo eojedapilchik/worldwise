@@ -1,0 +1,22 @@
+.nav {
+  background-color: orange;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+/* to make a global style, you can use the :global selector. This will make the style global and not scoped to the component. It will not add random string to the identificator*/
+/* 
+:global(.test) {
+  background-color: red;
+}
+
+.nav :global(.active) {
+  background-color: green;
+} 
+*/
